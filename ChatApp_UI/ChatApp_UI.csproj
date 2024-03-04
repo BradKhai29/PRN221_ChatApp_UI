@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="RestSharp" Version="110.2.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Models\WebApiPayloads\Implementation\ChatGroupWebApis\RequestBody\" />
+	  <Folder Include="Models\WebApiPayloads\Implementation\ChatGroupWebApis\ResponseBody\" />
+	  <Folder Include="Models\WebApiPayloads\Implementation\ChatMessageWebApis\RequestBody\" />
+	  <Folder Include="Models\WebApiPayloads\Implementation\ChatMessageWebApis\ResponseBody\" />
+	  <Folder Include="Models\WebApiPayloads\Implementation\UserWebApis\RequestBody\" />
+	  <Folder Include="Models\WebApiPayloads\Implementation\UserWebApis\ResponseBody\" />
+	  <Folder Include="WebApis\Implementation\ChatGroups\" />
+	  <Folder Include="WebApis\Implementation\Users\" />
+	</ItemGroup>
+</Project>
